@@ -2,7 +2,7 @@ package org.step.third.annotation;
 
 import java.lang.annotation.*;
 
-@Target(value = {ElementType.TYPE, ElementType.METHOD, ElementType.FIELD})
+@Target(value = {ElementType.TYPE, ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER})
 @Retention(value = RetentionPolicy.RUNTIME)
 @Inherited
 public @interface OurPeople {
